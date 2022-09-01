@@ -1,2 +1,2 @@
 #!/bin/bash
-echo '/tmp/correction/5709816215115924900875321037762493026253_5/205/136632/0x00-shell_basics' 
+echo $(realpath “${BASH_SOURCE:-$0}”) 
